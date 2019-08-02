@@ -1,4 +1,4 @@
-# Week 3 Homework ヽ(๏V๏ )ﾉ
+# Week 3 Homework ヽ( ﾟヮﾟ)ﾉ
 For our CSS homework, we will extend our HTML work from Week 2. Feel free to modify the content of your page as you see fit. You may want to include a section on your education, experience, projects, etc.
 
 ## Setup
