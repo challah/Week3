@@ -19,7 +19,7 @@ For our CSS homework, we will extend our HTML work from Week 2. Feel free to mod
 - [ ] Include at least 1 [Font Awesome](https://fontawesome.com/icons?d=gallery) icon
   - [ ] Link to the Font Awesome stylesheet in your `<head>`
   - `<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">`
-- Include a link to `http://hackyourfuture.ca`
+- [ ] Include a link to `http://hackyourfuture.ca`
 
 ## Checklist: CSS
 - [ ] Comment a title for each section of your styles, for example `/* Header */` and `/ * About Me */ `
@@ -37,9 +37,9 @@ For our CSS homework, we will extend our HTML work from Week 2. Feel free to mod
 - [ ] Use the `text-align` property to centre (`center`) the content of one of your sections
 
 ## Bonus
-- [ ] Navigation bar with anchor links
-- [ ] Add a shortcut icon
-- [ ] Comment your HTML sections, e.g. `<!-- header -->` `  <!-- contact -->`
+- Navigation bar with anchor links
+- Add a shortcut icon
+- Comment your HTML sections, e.g. `<!-- header -->` `  <!-- contact -->`
 
 ## Troubleshooting & Tips
 - Make sure that your body selector has 0 padding and 0 margins - so that your sections will inherit that property
