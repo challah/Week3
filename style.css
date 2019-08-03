@@ -1,0 +1,188 @@
+
+
+body{
+  padding: 0px;
+  margin: 0px;
+  background: url(images/bg.jpg) no-repeat fixed;
+  background-size: cover;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2{
+  font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+}
+
+
+
+/*  Navigation */
+nav{
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
+  width: 100%;
+  height: 70px;
+  z-index: +100;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul{
+  margin: 0px;
+  list-style: none;
+}
+
+nav li{
+  float: left;
+  padding: 15px 20px 15px 20px;
+  margin-top: 5px;
+}
+
+nav a{
+  color: gray;
+  text-decoration: none;
+}
+nav a:hover{
+  color: white;
+}
+nav a:active{
+  color: white;
+}
+
+/* Header */
+header{
+  background-color: rgba(255, 255, 255, .95);
+  flex-direction: column;
+
+}
+header i{
+  color: #4d9cd7;
+}
+
+
+
+
+/* About me */
+#about-me{
+  background: linear-gradient(to bottom, #4d9cd7, #4e9dd8);
+  color: white;
+}
+#about-me div{
+  max-width: 500px;
+}
+#about-me i{
+  color: #b3e051;
+}
+
+#about-me img{
+  margin-right: 50px;
+  border-radius: 15px;
+}
+
+
+/*  My interest */
+#my-interest{
+  background: linear-gradient(to bottom, #b3e051, #aedb4d);
+  color: white;
+}
+#my-interest h2{
+  margin-right: 100px;
+  font-size: 50px;
+
+}
+
+#my-interest ul{
+  list-style: square;
+  font-size: 30px;
+
+}
+
+#my-interest i{
+  color: #c35352;
+}
+
+/* learning */
+#learning{
+  background: linear-gradient(to bottom, #c35352, #c35151);
+  color: white;
+  flex-direction: column;
+}
+#learning a{
+  color: white;
+  font-weight: bold;
+}
+
+.classes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap:wrap;
+}
+
+.classes div{
+  width: 25vw; min-height: 150px;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+
+
+
+
+
+.circle{
+  position: absolute;
+  bottom: -100px;
+  border-radius: 50%;
+  border: 10px solid rgba(255, 255, 255, 0.3);
+  z-index: +1;
+
+}
+.circle div{
+  width: 180px;
+  height: 180px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+header, #about-me, #my-interest, #learning, footer{
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0  rgba(0, 0, 0, 0.08);
+}
+
+/* footer */
+footer{
+  background-color: black;
+  color: white;
+  height: 250px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 50px;
+  color: gray;
+  align-items: center;
+  font-size: 16px;
+}
+
+footer a{
+  color: lightgray;
+  text-decoration: none;
+}
+footer i{
+  margin-right: 20px;
+}
