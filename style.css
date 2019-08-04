@@ -1,0 +1,101 @@
+/* General */
+body{
+    background: url(images/background_image_header.jpg) fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 20px;
+}
+
+h1, h3{
+    font-family: 'Headland One', serif;
+}
+
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+    color:#ee5253;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+header, section{
+    text-align: center;
+    padding: 150px 150px;
+}
+/* Header */
+header{
+    background-color: rgb(63, 146, 191, 0.4);
+    padding: 250px 150px;
+    color: #ffffff;
+
+}
+/* About */
+#about{
+    background-color: #2e86de;
+    color: #fff;
+}
+
+/* Goals And Skills */
+#goals-and-skills{
+    background-color: rgb(63, 191, 184);
+}
+
+.goals{
+    color: #fff;
+}
+.skills ol{
+    list-style: none;
+    padding: 0 250px;
+}
+.skills ol li{
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 25px;
+    border-bottom: 2px solid #ee5253;
+    padding: 10px;
+}
+.skills ol li:first-child{
+    border-top: 2px solid #ee5253;
+}
+.skills li i{
+    color: #ee5253;
+    float: left;
+}
+/* Project */
+#project{
+    background-color: #2e86de;;
+}
+#project img{
+    height: 150px;
+}
+#project .radius{
+    border-radius: 30%;
+    margin-right: 30px;
+}
+/* Footer */
+footer{
+    background-color: #576574;
+    text-align: center;
+    padding: 50px 150px;
+}
+
+footer i{
+    color: #ffffff;
+}
+
+footer i:hover{
+    color: #ee5253;
+}
+footer .hyf a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer .hyf a:hover{
+    color: #ee5253;
+}
