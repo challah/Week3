@@ -1,0 +1,94 @@
+/* CSS files add styling rules to your content */
+
+.quote{
+  font-family: 'Saira Stencil One', cursive;
+  text-align:center;
+  height:300px;
+  font-size:30px;
+}
+#intro{
+  background-color: #f5e6fa;
+  margin:none;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  margin: none;
+  background:rgba(189, 183, 187)
+}
+
+h1 {
+  color: #a8a7a5;
+  font-size: 32px;
+
+
+}
+/* Header */
+header{
+  background-color: #f5e6fa;
+  width:auto;
+  height:200px;
+  padding:75px 75px 75px 75px;
+}
+#nav{
+  position:fixed;
+  margin-left:75%;
+  border: 3px solid #5c5a56;
+  background:#a8a7a5;
+  font-weight:800px;
+  clear:all;
+}
+#nav a{
+  text-decoration:none;
+  color:#a068b3;
+  display:block;
+  padding-top:30px;
+  text-transform: uppercase;
+  height: 80px;
+  text-align: center;
+
+}
+#nav a:hover{
+  background-color: #ccc;
+}
+
+#me{
+  border-radius:30px;
+  float:left;
+  border:5px solid #a8a7a5;
+  margin:0px 10px 35px 45px;
+
+}
+/* 1st section*/
+#About{
+  background:#ad7d9f;
+  text-align:left;
+}
+/* 2nd section */
+#Education{
+  background-color:#f5e6fa;
+}
+#edu{
+  float:right;
+  margin-right:25%;
+
+
+}
+/* 3rd section*/
+#Skills{
+  background-color:#ad7d9f;
+
+}
+/* 4th section*/
+#Experience{
+  background-color:#f5e6fa;
+
+}
+/* footer*/
+footer{
+  color:white;
+  text-align:center;
+}
+i{
+  margin-left:30px;
+}
