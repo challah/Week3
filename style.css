@@ -1,0 +1,96 @@
+body {
+    background:url("images/peak.jpg") no-repeat;
+    background-size:cover;
+    margin:0;
+    padding:0;
+    font-family: "Open Sans", "Helvetica Neue",sans-serif;
+    color:white;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#8C8586;
+    
+}
+  
+.navbar li {
+    float: left;
+}
+  
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
+  
+.navbar li a:hover {
+    background-color: #111;
+}
+
+.header-heading,
+.header-intro {
+    text-align: center;
+}
+
+.header-intro{
+    font-size: 3em;
+}
+
+.header-heading{
+    font-size:5em;
+    font-family: 'Pacifico', cursive;
+}
+p{
+    font-size:22px;
+    line-height:1.5;
+    font-family: 'Satisfy', cursive;
+}
+  
+  
+header,
+section,
+footer {
+padding: 100px 150px;
+}
+  
+#goals, 
+#interests,
+footer {
+    text-align: center;
+}
+  
+#interests li {
+    list-style-type: none;
+    margin: 10px;
+    float: center;
+    color:black
+       
+}
+
+img {
+    width:150px;
+    border-radius: 10%;
+    
+}
+  
+header {
+    background-color:rgb(171,166,170,0.8);
+}
+#goals {
+    background-color:rgb(148,150,161, 0.8);
+    color:white;
+  }
+#interests {
+    background-color:rgb(231,224,220,0.8);
+    text-align:center;
+}
+  
+footer {
+    background-color:rgb(190,112,93,0.8)
+  }
+  
