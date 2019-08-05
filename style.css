@@ -1,0 +1,82 @@
+.profileImage {
+  border-radius: 10px;
+  float: center;
+  border: 10px solid black;
+}
+
+body {
+  background: url(images/background.jpg) fixed;
+  background-size: cover;
+  text-align: center;
+  list-style-position: inside;
+  width: 100%;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2 {
+  font-family: 'Inconsolata', monospace;
+}
+
+header {
+  background-color: rgba(255, 94, 0, 0.1);
+  padding: 5px 0 5px 0;
+}
+
+#about {
+  font-size: 22px;
+  background-color: rgba(0, 255, 221, 0.2);
+  padding: 5px 0 5px 0;
+}
+
+.skills {
+  padding: 5px 0 5px 0;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(153, 0, 255, 0.1);
+}
+
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 36px;
+}
+
+/* unvisited link */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: blueviolet;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+  background-color: white;
+}
+
+/* selected link */
+a:active {
+  color: black;
+  background-color: white;
+}
+
+.images {
+  width: 70%;
+  margin: auto;
+}
+
+.image {
+  border: 10px solid black;
+}
+
+footer {
+  padding: 10px;
+}
