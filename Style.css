@@ -1,0 +1,56 @@
+body {
+  font-family: Montserrat, san-serif;
+  background-image: url(img/coffee.jpg);
+    no-repeat fixed;
+  background-size:cover;
+  margin:0;
+  padding:0;
+  width: auto;
+  height: auto;
+  background-position: center;
+}
+
+h1{
+  font-size: 50px;
+}
+p{
+  font-size: 20px;
+  line-height: 1.5;
+  color: black;
+}
+
+header,
+section,
+footer{
+  padding: 100px 150px;
+}
+
+footer{
+  text-align: center;
+}
+.graphic{
+  color:black;
+}
+.Web-des{
+  color:black;
+}
+i{
+margin-right: 10px;
+}
+
+/* Header */
+header h1{
+  font-size:54px;
+}
+
+/* About*/
+.about{
+  background-color:rgb(248, 225, 114, 0.5);
+    color:black;
+}
+
+/* Footer - contact information */
+footer {
+  background:rgb(231,185,188,0.5);
+  color:white;
+}
