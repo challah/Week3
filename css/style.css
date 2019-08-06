@@ -1,0 +1,75 @@
+body{
+		font-family: 'Rajdhani', sans-serif;
+		font-size: 1.4em;
+		background-color: #d7c0c0;
+	}
+
+h1{
+	color:#1d5b6c;
+	margin:40px 20px 10px 40px 
+	
+}
+
+h2{
+	margin: 0px;
+	text-align:center;
+
+}
+	
+
+
+.about-me {
+	margin: 20px;
+background: #5a4949;
+	color:#ffdebe;
+	padding: 20px;
+}
+.my-goal{
+	margin: 20px;
+background: #267f5c;
+	color:#ffdebe;
+	padding: 20px;
+}
+ul{
+	padding: 20px;
+	margin: 40px;
+	background: #f0e3e3;
+
+}
+li{
+	margin: 20px;
+	font-weight:bold;
+	background: #f0b21278;
+	padding: 9px;
+	border:1px solid #ffffffc9;
+
+}
+
+img{
+	border-radius: 5%;
+	display: block;
+	width:auto; 
+	height:400px;
+	margin: 20px;
+}
+.caption{
+	color:white;
+	margin: 40px;
+	background: #632d18;
+
+}
+
+footer{
+
+	margin-top:40px;
+	background: #aea2a2;
+	padding:40px;
+}
+a{
+	text-decoration: none;
+	color:#5bf636;
+	font-weight: bold;
+}
+a:hover{
+	color:yellow;
+}
