@@ -1,0 +1,59 @@
+
+body{
+
+background: linear-gradient(rgba(255,255,255,0.6),
+	
+			 rgba(255,255,255,0.6)), url("images/book.jpg") no-repeat fixed;
+	background-size: cover;
+}
+
+
+.pic{
+
+border-radius: 40px;
+background-color: #eae3d3;
+margin: 10px; 
+padding: 10px;
+
+}
+
+
+.text{
+font-family: 'Dancing Script', cursive;
+font-family: 'Titillium Web', sans-serif;
+background-color: #eae3d3;
+
+ text-align: center;
+
+ margin: 10px; 
+padding: 20px;
+
+	}
+
+	.pic{  font-family: 'Dancing Script', cursive;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Bitter', serif;
+
+
+
+}
+
+.dif{
+
+font-family: 'Dancing Script', cursive;
+
+}
+
+
+a:hover {
+  background-color: #eae3d3;
+}
+
+
+
+
+
+
+
+
+
