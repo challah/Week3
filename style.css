@@ -1,0 +1,106 @@
+body{
+  font-family: 'Libre Caslon Text', serif;
+  background: url(images/duver.jpeg) no-repeat fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;}
+
+  .topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+h1{
+  font-size: 50px;
+  line-height: 1.5px;
+
+}
+
+p{
+  font-size: 18px;
+  line-height: 1.5;}
+
+  header,
+section,
+footer {
+  padding: 100px 150px;
+}
+
+ /* HEADER */
+
+ header{
+   background-color: rgba(97, 41, 64, 0.6);
+   color: white;
+ text-align: center;}
+
+ /* ABOUT */
+ .about{
+   background-color: rgba(255, 153, 204, .5);
+   font-family: inherit;
+ }
+
+ #maddeler{
+   text-align: right;
+   font-size: 25px;
+ }
+
+ .hobbies{
+   background-color: rgba(170, 128, 255, .4);
+   text-align: center;
+ }
+
+
+
+ .hobbies img{
+   width: 180px;
+   border-radius: 50%;
+   margin: 10px;
+ }
+
+
+ .hobbies img:hover {
+   color: white;
+ }
+
+ .plans{
+   background: url(images/dagadam.jpg) no-repeat fixed;
+   background-size: cover;
+   font-size: 25px;
+   font-family: monospace;
+
+ }
+
+ /* FOOTER - contact information */
+ footer {
+
+  background-color: rgba(204, 255, 255, .4);
+  font-family: sans-serif;
+
+  color: rgb(153, 0, 51);
+  text-align: center;}
+ h4{
+   font-size: 36px;
+ }
+i{
+    font-size: 75px;
+    color: purple;
+  }
+ i:hover{
+   color: blue;
+ }
