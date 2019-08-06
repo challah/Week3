@@ -1,0 +1,126 @@
+/* The body styling */
+body {
+  font-family: 'Montserrat';
+  font-weight: 250;
+  margin: 0px;
+  padding: 0;
+  background: url(https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) no-repeat fixed;
+  background-size: cover;
+}
+
+/* The navigation bar - - - - - - - - - - - - - - - - - - - */
+nav {
+  overflow: hidden;
+  background-color: rgb(222, 222, 53);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+nav a {
+  float: left;
+  display: block;
+  color:black;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 15px;
+  text-decoration: none;
+  font-family: 'Special Elite', cursive;
+}
+nav a:hover {
+  background: rgb(148, 128, 28);
+}
+/* page header ------------------------------------------------*/
+header {
+  background-color: rgba(207, 207, 21, 0.5);
+}
+#profile-photo {
+  float: right;
+  width: 28%;
+  border-radius: 0%;
+}
+/* sections styling --------------------------------------------*/
+#journey {
+  background-color: rgba(27, 191, 148, 0.5);
+}
+#yoga-poses {
+  background-color: rgba(184, 13, 13, 0.5)
+}
+#reach  {
+  background-color: black;
+  text-align: center;
+}
+#footer-image { /* sat footer image in centre */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+header, section, footer {
+  padding-top: 60px;
+  padding-right: 100px;
+  padding-bottom: 60px;
+  padding-left: 100px;
+}
+/* About me Section - - - - - - - - - - - - - - - - - - - */
+div {
+  margin: 100px 150px 75px 150px; /* This div element has top 50px, right 150px, bottom 75px, left 150px */
+}
+h1 {
+  font-size: 35px;
+  color: white;
+  font-family: 'Baloo Chettan', cursive;
+}
+p {
+  line-height: 30px;
+  font-family: 'Special Elite', cursive;
+  font-size: 20px;
+}
+ul {
+  line-height: 30px;
+  font-family: 'Special Elite', cursive;
+  font-size: 20px;
+}
+strong {
+  color: white;
+  font-size: 30px;
+}
+i {
+    color: white;
+    display: inline-block;
+    border-radius: 60px;
+    border: 2px solid #ffffff;
+    padding: 0.5em 0.5em;
+    opacity: 0.6;
+    transition: all 0.5s ease-out;
+}
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 0;
+.fa-2x {
+    font-size: 2em;
+}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+i {
+    margin-right: 10px;
+}
+a {
+    color: #EBBA50;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+.fa-github-alt:before {
+    content: "\f113";
+}
