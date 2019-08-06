@@ -1,0 +1,102 @@
+body{
+    background-image: url(images/pic5.jpg); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    width: 100%;
+    background-color: rgba(39, 41, 39, 0.5);
+    overflow: auto;
+    float: left;
+    font-size: 25px;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    text-align: center;
+  
+  }
+  
+  nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    
+  }
+
+  nav a:hover{
+      color:   rgba(77, 46, 80, 0.7) ;
+  }
+    
+    
+
+.pics{
+    margin-left: 155px;
+    border-radius: 10%;
+
+
+}
+#About{
+    text-align: center;
+    font-size: 420%;
+    color: rgb(31, 21, 21) ;
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 65px;
+
+}
+ header {
+
+    padding: 20px 10px 20px 40px ;
+    
+    background-color: rgba(155, 214, 115,0.4) ;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+}
+.Education{
+    padding: 20px 10px 20px 40px ;
+    background-color: rgba(77, 46, 80, 0.7) ;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.Workexperience{
+    padding: 20px 10px 20px 40px ;
+    background-color: rgba(42, 19, 44, 0.7) ;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 25px;
+
+    
+
+}
+
+.Interest{
+    padding: 20px 10px 20px 40px ;
+    
+    background-color: rgba(47, 26, 49, 0.7) ;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    
+
+}
+footer{
+    padding: 20px 10px 20px 40px ;
+    background-color: rgba(155, 214, 115,0.4) ;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    
+
+
+}
